@@ -1,0 +1,27 @@
+name: DeACoudre
+version: ${project.version}
+main: me.rayanjenkins.deacoudre.DeACoudre
+api-version: 1.15
+authors: [RayanJenkins]
+description: Plugin du mini-jeu Dé A Coudre
+commands:
+  deacoudre:
+    description: Commande pour configurer une partie de Dé A Coudre.
+  deacoudre start:
+    description: Lancement d'une partie de Dé A Coudre.
+  deacoudre end:
+    description: Arrêt de la partie de Dé A Coudre.
+  deacoudre setStart:
+    description: Indication du lieu de jump initial pour les joueurs.
+  deacoudre setLosers:
+    description: Indication du lieu où ceux qui perdent la partie seront tp.
+  deacoudre join:
+    description: Rejoindre la partie de Dé A Coudre.
+  deacoudre leave:
+    description: Quitter la partie de Dé A Coudre.
+  deacoudre add [player name]:
+    description: Ajoute à la partie le joueur désigné.
+  deacoudre kick [player name]:
+    description: Kick de la partie le joueur désigné.
+
+
